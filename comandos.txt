@@ -1,0 +1,56 @@
+
+# install nodejs
+https://nodejs.org/pt/download
+
+# install vscode
+https://code.visualstudio.com/docs/setup/windows
+
+# install git for windows
+https://git-scm.com/downloads
+
+
+# install npm (node package manager)
+npm install -g npm
+
+
+# check versions
+node --versiongit -
+v22.17.0
+
+npm --version
+10.9.2
+
+git --version
+git version 2.50.1.windows.1
+
+
+#config email git
+git config --global user.email "ch.112.sousa@ygmail.com"
+git config user.email "chh.112.sousa@gmail.com"
+git config --global user.name c-sousa
+
+
+
+# initial commit
+D:
+cd\
+cd carlos\repo
+
+
+
+#create vite react project template typescript
+npm create vite@latest compras -- --template react-ts
+
+
+# install dependencies
+npm install
+
+# run react project
+npm run dev
+
+
+git clone https://github.com/ch-112-sousa/compras.git
+cd compras
+
+# install firebase
+npm install firebase
